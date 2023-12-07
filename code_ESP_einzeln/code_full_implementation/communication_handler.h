@@ -1,0 +1,3 @@
+String extractFromJSON(){
+  return "Nachricht";
+}
