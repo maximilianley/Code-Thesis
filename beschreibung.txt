@@ -2,6 +2,6 @@ Dies ist die Codebasis für die Implementierung der Höhenmessung und für die W
 Für den ESP gibt es zwei Implementierungen:
 - 'Code_ESP_einzeln' umfasst alle Funktionen für die Ausführung auf einem einzigen Mikrocontroller
 - 'code_sender_receiver' implementiert die gleichen Funktionen von 'Code_ESP_einzeln', teilt sie aber auf
-zwei Boards auf. Ein ESP führt die Messung durch und wirkt als Sender, während der zweite ESP die
-Messdaten über LoRa empfängt und über HTTP an die REST API weitergibt. Entsprechend wirkt der zweite
-Mikrocotroller als Schnittstelle ("LoRa-HTTP-Node").
+  zwei Boards auf. Ein ESP führt die Messung durch und wirkt als Sender, während der zweite ESP die
+  Messdaten über LoRa empfängt und über HTTP an die REST API weitergibt. Entsprechend wirkt der zweite
+  Mikrocotroller als Schnittstelle ("LoRa-HTTP-Node").
