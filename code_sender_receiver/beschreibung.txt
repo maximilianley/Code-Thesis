@@ -1,1 +1,9 @@
+Diese Implementierung der Höhenmessung benötigt zwei ESPs die miteinander kommunizieren.
+Der erste Teil des Codes ist für die Messung zuständig und wird auf dem ESP auf der
+Waldfläche ausgeführt. Der zweite Code-Teil implementiert den Aufbau zum Internet und
+die Kommunikation über HTTP.
 
+Beide Code-Teile implementieren zudem die Kommunikation über LoRa, sodass sich beide 
+Mikrokontroller Information mittels LoRa austauschen können.
+
+Dies ist der Code der für das Testen verwendet wurde.
