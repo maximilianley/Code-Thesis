@@ -1,1 +1,2 @@
-sdgsgfsdfg
+Dieser Code ist eine Implementierung des Messvorgangs, des Verbindungsufbaus und der Kommunikation über HTTP für einen einzigen ESP.
+Der ESP muss dafür mit den Helligkeitssensoren verbunden sein und sich in der Nähe eines WLAN-Netzes befinden. Dies ist zwar nicht die Version des Codes, die in einer produktiven Umgebung benutzt werden sollte, da ein ferfügbares WLAN-Netz normal nicht in unmittelbarer Nähe einer Waldfläche zu finden. Diese Implementierung eignet sich trotzdem um ein Verständnis über alle relevanten Module für Messung, Kommunikation und Zeitsynchronisation zu bekommen.
